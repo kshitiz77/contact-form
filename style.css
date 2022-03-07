@@ -1,0 +1,82 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('img/background.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.contactContainer{
+    background-color: #2950f7;
+}
+.mainContainer{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userImg{
+    margin-top: 15px;
+    background-color: #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.formContainer{
+    margin: 10px 0px;
+}
+.formStyle{
+    display: flex;
+    flex-direction: column;
+}
+.nameContainer{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.emailAndPhoneContainer{
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.addressAndDOBContainer{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.inputField{
+    font-size: 1rem;
+    width: 100%;
+    padding: 7px 15px;
+    margin: 8px 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btnContainer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.myImage{
+    font-size: 1.1rem;
+}
+
+.submitBtn{
+    padding: 2px 25px;
+    color: #fff;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #a0cd67;
+}
